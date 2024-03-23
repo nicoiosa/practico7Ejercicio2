@@ -48,7 +48,7 @@ The backend should now be up and running, ready to serve recipe data to the fron
 
 ## Contributing
 
-If you have improvements to suggest or want to add more backend features, you're welcome to contribute to Rolling Food Backend! Here's how:
+If you have improvements to suggest or want to add more backend features, you're welcome to contribute to Rolling Task List Backend! Here's how:
 
 1. Fork the repository.
 2. Create a new branch for your feature or enhancement: `git checkout -b feature/your-feature-name`.
@@ -60,4 +60,4 @@ If you have improvements to suggest or want to add more backend features, you're
 
 **Nicolás Iosa Molina**
 
-Let's continue doing some borings tasks! 🍲🔥🚀
+Let's continue doing some borings tasks!
