@@ -40,7 +40,7 @@ The backend should now be up and running, ready to serve recipe data to the fron
 
 ## Features
 
-- **Recipe Management:** Store, retrieve and delete recipes in the MongoDB database.
+- **Management:** Store, retrieve and delete recipes in the MongoDB database.
 - **API Endpoints:** Define routes and controllers to handle various CRUD operations on recipes.
 - **Middleware Integration:** Utilize middleware like CORS, Morgan, and Express-Validator for enhanced functionality and security.
 - **Environment Configuration:** Safely manage environment variables using dotenv for different deployment environments.
