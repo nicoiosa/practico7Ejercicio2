@@ -4,7 +4,8 @@ import morgan from "morgan";
 import "dotenv/config";
 import path from "path";
 import { fileURLToPath } from "url";
-import "./src/database/databse.js"
+import "./src/database/databse.js";
+import TasksRouter from "./src/routes/tasks.routes.js";
 
 const app = express();
 app.set("port", process.env.PORT || 4000);
@@ -20,4 +21,4 @@ const __filename = fileURLToPath(import.meta.url);
 const __direname = path.dirname(__filename);
 app.use(express.static(path.join(__direname, "public")));
 
-// app.use("/api", RecipesRouter);
+app.use("/api", TasksRouter);
