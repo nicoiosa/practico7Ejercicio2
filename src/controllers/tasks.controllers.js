@@ -1,4 +1,4 @@
-import Task from "../database/models/task";
+import Task from "../database/models/task.js";
 
 export const listTasks = async (req, res) => {
   try {
